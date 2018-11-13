@@ -1,2 +1,3 @@
 # hello-world
-Mohammed
+Mohamed
+My first Git Repository
