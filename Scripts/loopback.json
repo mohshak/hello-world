@@ -1,0 +1,13 @@
+{
+	"ned:Loopback":  {
+		"name":200,
+		"ip": {
+			"address": {
+				"primary": {
+					"address":  "160.99.1.1",
+					"mask": "255.255.255.0"
+				}
+			}
+		}
+	}
+}
