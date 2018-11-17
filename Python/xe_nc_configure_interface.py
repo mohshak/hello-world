@@ -1,11 +1,11 @@
-#!/usr/bin/env python
+
 
 from lxml import etree
 from ncclient import manager
 
 if __name__ == "__main__":
 
-    with manager.connect(host='csr1kv', port=830, username='cisco', password='cisco',
+    with manager.connect(host='192.168.10.80', port=830, username='admin', password='cisco',
                          hostkey_verify=False, device_params={'name': 'csr'},
                          allow_agent=False, look_for_keys=False) as device:
 
@@ -15,7 +15,7 @@ if __name__ == "__main__":
                 <native xmlns="http://cisco.com/ns/yang/ned/ios">
                  <interface>
                   <Loopback>
-                   <name>200</name>
+                   <name>700</name>
                    <ip>
                     <address>
                         <primary>

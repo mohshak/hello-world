@@ -1,0 +1,352 @@
+[------------- Sending Request to Server ------------
+
+<aaaRefresh
+cookie="1542468930/ef3c3647-752f-4e65-85f8-82f5bcec38d6"
+inName="cisco"
+inPassword=***
+inCookie="1542468930/ef3c3647-752f-4e65-85f8-82f5bcec38d6">
+</aaaRefresh>
+
+<configEstimateImpact
+cookie="1542469562/e41098a4-b979-4210-bfc8-686761d0b200">
+    <inConfigs>
+<pair key="org-root/ls-Exchange">
+    <lsServer
+    name="Exchange"
+    dn="org-root/ls-Exchange"
+    
+    status="created"
+    
+    sacl="addchild,del,mod">
+        <vnicEther
+        adaptorProfileName=""
+        addr="derived"
+        adminCdnName=""
+        adminHostPort="ANY"
+        adminVcon="any"
+        cdnPropInSync="yes"
+        cdnSource="vnic-name"
+        identPoolName=""
+        mtu="1500"
+        name="eth0"
+        nwCtrlPolicyName=""
+        nwTemplName=""
+        order="unspecified"
+        pinToGroupName=""
+        qosPolicyName=""
+        statsPolicyName="default"
+        switchId="A"
+        
+        rn="ether-eth0"
+        status="created"
+        
+        sacl="addchild,del,mod">
+            <vnicEtherIf
+            defaultNet="yes"
+            name="human-resource"
+            
+            rn="if-human-resource"
+            
+            
+            sacl="addchild,del,mod">
+            </vnicEtherIf>
+        </vnicEther>
+        <vnicEther
+        adaptorProfileName=""
+        addr="derived"
+        adminCdnName=""
+        adminHostPort="ANY"
+        adminVcon="any"
+        cdnPropInSync="yes"
+        cdnSource="vnic-name"
+        identPoolName=""
+        mtu="1500"
+        name="eth1"
+        nwCtrlPolicyName=""
+        nwTemplName=""
+        order="unspecified"
+        pinToGroupName=""
+        qosPolicyName=""
+        statsPolicyName="default"
+        switchId="B"
+        
+        rn="ether-eth1"
+        status="created"
+        
+        sacl="addchild,del,mod">
+            <vnicEtherIf
+            defaultNet="yes"
+            name="human-resource"
+            
+            rn="if-human-resource"
+            
+            
+            sacl="addchild,del,mod">
+            </vnicEtherIf>
+        </vnicEther>
+        <vnicFc
+        adaptorProfileName=""
+        addr="derived"
+        adminCdnName=""
+        adminHostPort="ANY"
+        adminVcon="any"
+        cdnPropInSync="yes"
+        cdnSource="vnic-name"
+        identPoolName=""
+        maxDataFieldSize="2048"
+        name="fc0"
+        nwTemplName=""
+        order="unspecified"
+        persBind="disabled"
+        persBindClear="no"
+        pinToGroupName=""
+        qosPolicyName=""
+        statsPolicyName="default"
+        switchId="A"
+        
+        rn="fc-fc0"
+        status="created"
+        
+        sacl="addchild,del,mod">
+        </vnicFc>
+        <vnicFc
+        adaptorProfileName=""
+        addr="derived"
+        adminCdnName=""
+        adminHostPort="ANY"
+        adminVcon="any"
+        cdnPropInSync="yes"
+        cdnSource="vnic-name"
+        identPoolName=""
+        maxDataFieldSize="2048"
+        name="fc1"
+        nwTemplName=""
+        order="unspecified"
+        persBind="disabled"
+        persBindClear="no"
+        pinToGroupName=""
+        qosPolicyName=""
+        statsPolicyName="default"
+        switchId="B"
+        
+        rn="fc-fc1"
+        status="created"
+        
+        sacl="addchild,del,mod">
+        </vnicFc>
+        <lsbootDef
+        
+        rn="boot-policy"
+        
+        
+        sacl="addchild,del,mod">
+            <lsbootStorage
+            order="1"
+            
+            rn="storage"
+            
+            
+            sacl="addchild,del,mod">
+                <lsbootLocalStorage
+                
+                rn="local-storage"
+                
+                
+                sacl="addchild,del,mod">
+                    <lsbootDefaultLocalImage
+                    order="1"
+                    
+                    rn="local-any"
+                    
+                    
+                    sacl="addchild,del,mod">
+                    </lsbootDefaultLocalImage>
+                </lsbootLocalStorage>
+            </lsbootStorage>
+        </lsbootDef>
+        <vnicFcNode
+        addr="pool-derived"
+        identPoolName=""
+        
+        rn="fc-node"
+        
+        
+        sacl="addchild,del,mod">
+        </vnicFcNode>
+    </lsServer>
+</pair>
+    </inConfigs>
+</configEstimateImpact>
+
+<configConfMos
+cookie="1542469562/e41098a4-b979-4210-bfc8-686761d0b200"
+inHierarchical="false">
+    <inConfigs>
+<pair key="org-root/ls-Exchange">
+    <lsServer
+    name="Exchange"
+    dn="org-root/ls-Exchange"
+    
+    status="created"
+    
+    sacl="addchild,del,mod">
+        <vnicEther
+        adaptorProfileName=""
+        addr="derived"
+        adminCdnName=""
+        adminHostPort="ANY"
+        adminVcon="any"
+        cdnPropInSync="yes"
+        cdnSource="vnic-name"
+        identPoolName=""
+        mtu="1500"
+        name="eth0"
+        nwCtrlPolicyName=""
+        nwTemplName=""
+        order="unspecified"
+        pinToGroupName=""
+        qosPolicyName=""
+        statsPolicyName="default"
+        switchId="A"
+        
+        rn="ether-eth0"
+        status="created"
+        
+        sacl="addchild,del,mod">
+            <vnicEtherIf
+            defaultNet="yes"
+            name="human-resource"
+            
+            rn="if-human-resource"
+            
+            
+            sacl="addchild,del,mod">
+            </vnicEtherIf>
+        </vnicEther>
+        <vnicEther
+        adaptorProfileName=""
+        addr="derived"
+        adminCdnName=""
+        adminHostPort="ANY"
+        adminVcon="any"
+        cdnPropInSync="yes"
+        cdnSource="vnic-name"
+        identPoolName=""
+        mtu="1500"
+        name="eth1"
+        nwCtrlPolicyName=""
+        nwTemplName=""
+        order="unspecified"
+        pinToGroupName=""
+        qosPolicyName=""
+        statsPolicyName="default"
+        switchId="B"
+        
+        rn="ether-eth1"
+        status="created"
+        
+        sacl="addchild,del,mod">
+            <vnicEtherIf
+            defaultNet="yes"
+            name="human-resource"
+            
+            rn="if-human-resource"
+            
+            
+            sacl="addchild,del,mod">
+            </vnicEtherIf>
+        </vnicEther>
+        <vnicFc
+        adaptorProfileName=""
+        addr="derived"
+        adminCdnName=""
+        adminHostPort="ANY"
+        adminVcon="any"
+        cdnPropInSync="yes"
+        cdnSource="vnic-name"
+        identPoolName=""
+        maxDataFieldSize="2048"
+        name="fc0"
+        nwTemplName=""
+        order="unspecified"
+        persBind="disabled"
+        persBindClear="no"
+        pinToGroupName=""
+        qosPolicyName=""
+        statsPolicyName="default"
+        switchId="A"
+        
+        rn="fc-fc0"
+        status="created"
+        
+        sacl="addchild,del,mod">
+        </vnicFc>
+        <vnicFc
+        adaptorProfileName=""
+        addr="derived"
+        adminCdnName=""
+        adminHostPort="ANY"
+        adminVcon="any"
+        cdnPropInSync="yes"
+        cdnSource="vnic-name"
+        identPoolName=""
+        maxDataFieldSize="2048"
+        name="fc1"
+        nwTemplName=""
+        order="unspecified"
+        persBind="disabled"
+        persBindClear="no"
+        pinToGroupName=""
+        qosPolicyName=""
+        statsPolicyName="default"
+        switchId="B"
+        
+        rn="fc-fc1"
+        status="created"
+        
+        sacl="addchild,del,mod">
+        </vnicFc>
+        <lsbootDef
+        
+        rn="boot-policy"
+        
+        
+        sacl="addchild,del,mod">
+            <lsbootStorage
+            order="1"
+            
+            rn="storage"
+            
+            
+            sacl="addchild,del,mod">
+                <lsbootLocalStorage
+                
+                rn="local-storage"
+                
+                
+                sacl="addchild,del,mod">
+                    <lsbootDefaultLocalImage
+                    order="1"
+                    
+                    rn="local-any"
+                    
+                    
+                    sacl="addchild,del,mod">
+                    </lsbootDefaultLocalImage>
+                </lsbootLocalStorage>
+            </lsbootStorage>
+        </lsbootDef>
+        <vnicFcNode
+        addr="pool-derived"
+        identPoolName=""
+        
+        rn="fc-node"
+        
+        
+        sacl="addchild,del,mod">
+        </vnicFcNode>
+    </lsServer>
+</pair>
+    </inConfigs>
+</configConfMos>
+-----------------------------------------------------]

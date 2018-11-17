@@ -1,0 +1,80 @@
+[------------- Sending Request to Server ------------
+
+<configEstimateImpact
+cookie="1542472631/1322962b-c1e1-40e8-a7e7-3313426ccbda">
+    <inConfigs>
+<pair key="org-root/ls-Exchange/fc-fc0/if-default">
+    <vnicFcIf
+    name="VSAN10"
+    dn="org-root/ls-Exchange/fc-fc0/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configEstimateImpact>
+
+<configConfMos
+cookie="1542472631/1322962b-c1e1-40e8-a7e7-3313426ccbda"
+inHierarchical="false">
+    <inConfigs>
+<pair key="org-root/ls-Exchange/fc-fc0/if-default">
+    <vnicFcIf
+    name="VSAN10"
+    dn="org-root/ls-Exchange/fc-fc0/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configConfMos>
+
+<configResolveClass
+cookie="1542472631/1322962b-c1e1-40e8-a7e7-3313426ccbda"
+classId="fabricVsan"
+inHierarchical="false">
+    <inFilter>
+<or>
+    <eq class="fabricVsan" property="switchId" value="B"/>
+    <eq class="fabricVsan" property="switchId" value="dual"/>
+</or>
+    </inFilter>
+</configResolveClass>
+
+<configEstimateImpact
+cookie="1542472631/1322962b-c1e1-40e8-a7e7-3313426ccbda">
+    <inConfigs>
+<pair key="org-root/ls-Exchange/fc-fc1/if-default">
+    <vnicFcIf
+    name="VSAN11"
+    dn="org-root/ls-Exchange/fc-fc1/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configEstimateImpact>
+
+<configConfMos
+cookie="1542472631/1322962b-c1e1-40e8-a7e7-3313426ccbda"
+inHierarchical="false">
+    <inConfigs>
+<pair key="org-root/ls-Exchange/fc-fc1/if-default">
+    <vnicFcIf
+    name="VSAN11"
+    dn="org-root/ls-Exchange/fc-fc1/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configConfMos>
+-----------------------------------------------------]

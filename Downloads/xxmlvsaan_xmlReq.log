@@ -1,0 +1,134 @@
+[------------- Sending Request to Server ------------
+
+<configEstimateImpact
+cookie="1542473845/620c5f85-92b9-4314-80a6-390525831a66">
+    <inConfigs>
+<pair key="org-root/ls-Exchange/fc-fc0/if-default">
+    <vnicFcIf
+    name="VSAN10"
+    dn="org-root/ls-Exchange/fc-fc0/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configEstimateImpact>
+
+<configConfMos
+cookie="1542473845/620c5f85-92b9-4314-80a6-390525831a66"
+inHierarchical="false">
+    <inConfigs>
+<pair key="org-root/ls-Exchange/fc-fc0/if-default">
+    <vnicFcIf
+    name="VSAN10"
+    dn="org-root/ls-Exchange/fc-fc0/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configConfMos>
+
+<configEstimateImpact
+cookie="1542473845/620c5f85-92b9-4314-80a6-390525831a66">
+    <inConfigs>
+<pair key="org-root/ls-Exchange/fc-fc1/if-default">
+    <vnicFcIf
+    name="VSAN11"
+    dn="org-root/ls-Exchange/fc-fc1/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configEstimateImpact>
+
+<configConfMos
+cookie="1542473845/620c5f85-92b9-4314-80a6-390525831a66"
+inHierarchical="false">
+    <inConfigs>
+<pair key="org-root/ls-Exchange/fc-fc1/if-default">
+    <vnicFcIf
+    name="VSAN11"
+    dn="org-root/ls-Exchange/fc-fc1/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configConfMos>
+
+<configEstimateImpact
+cookie="1542473845/620c5f85-92b9-4314-80a6-390525831a66">
+    <inConfigs>
+<pair key="org-root/ls-Linux/fc-fc0/if-default">
+    <vnicFcIf
+    name="VSAN10"
+    dn="org-root/ls-Linux/fc-fc0/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configEstimateImpact>
+
+<configConfMos
+cookie="1542473845/620c5f85-92b9-4314-80a6-390525831a66"
+inHierarchical="false">
+    <inConfigs>
+<pair key="org-root/ls-Linux/fc-fc0/if-default">
+    <vnicFcIf
+    name="VSAN10"
+    dn="org-root/ls-Linux/fc-fc0/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configConfMos>
+
+<configEstimateImpact
+cookie="1542473845/620c5f85-92b9-4314-80a6-390525831a66">
+    <inConfigs>
+<pair key="org-root/ls-Linux/fc-fc1/if-default">
+    <vnicFcIf
+    name="VSAN11"
+    dn="org-root/ls-Linux/fc-fc1/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configEstimateImpact>
+
+<configConfMos
+cookie="1542473845/620c5f85-92b9-4314-80a6-390525831a66"
+inHierarchical="false">
+    <inConfigs>
+<pair key="org-root/ls-Linux/fc-fc1/if-default">
+    <vnicFcIf
+    name="VSAN11"
+    dn="org-root/ls-Linux/fc-fc1/if-default"
+    
+    status="created,modified"
+    
+    sacl="addchild,del,mod">
+    </vnicFcIf>
+</pair>
+    </inConfigs>
+</configConfMos>
+-----------------------------------------------------]
